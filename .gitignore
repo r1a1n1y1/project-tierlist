@@ -1,0 +1,19 @@
+# Ignorar as senhas e chaves do Streamlit (CRÍTICO)
+.streamlit/secrets.toml
+
+# Ignorar variáveis de ambiente locais alternativas
+.env
+.env.local
+
+# Ignorar pastas geradas pelo Python
+__pycache__/
+*.pyc
+
+# Ignorar ambientes virtuais (caso use venv)
+venv/
+.venv/
+env/
+
+# Ignorar pastas ocultas do sistema operacional
+.DS_Store
+Thumbs.db
